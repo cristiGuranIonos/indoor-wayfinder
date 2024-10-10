@@ -6,7 +6,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
   return (
     <g id="Objects">
       <path
-        id="Adidas"
+        id="RaduOffice"
         className={`${className} object`}
         d="M558.987 911.04l116.848.003-1.024 114.297-116.619.503.795-114.803z"
         onClick={handleObjectClick}

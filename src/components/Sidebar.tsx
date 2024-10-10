@@ -1,4 +1,4 @@
-import logo from "../assets/img/pathpal-logo.svg";
+import logo from "../assets/img/ionos-logo.svg";
 import { FiChevronRight } from "react-icons/fi";
 import { useContext, useEffect, useState } from "react";
 import {
@@ -58,7 +58,7 @@ function Sidebar() {
           <div className="rounded-md w-16 h-16 p-4 bg-gray-100 center">
             <img
               src={logo}
-              alt="PathPal"
+              alt="Ionos"
               className={` ${isRotating ? "rotate" : ""}`}
               onClick={() => setIsRotating(true)}
               onAnimationEnd={() => setIsRotating(false)}
@@ -67,7 +67,7 @@ function Sidebar() {
           <div className="flex flex-col">
             <div className="flex flex-col">
               <p className="text-2xl font-semibold text-gray-900 pl-2">
-                PathPal
+                Ionos
               </p>
               <p className="text-sm font-semibold text-[#225EA9] pl-2">
                 Indoor-Navigation
